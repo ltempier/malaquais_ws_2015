@@ -1,0 +1,21 @@
+{
+  "name": "hello-malaquais",
+  "version": "0.0.0",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "bower": "^1.5.2",
+    "express": "^4.13.3",
+    "express-session": "^1.11.3",
+    "jade": "^1.11.0",
+    "mongodb": "^2.0.42",
+    "underscore": "^1.8.3",
+    "connect-mongo": "^0.8.2",
+    "mongoose": "^4.1.5"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "bower install"
+  }
+}

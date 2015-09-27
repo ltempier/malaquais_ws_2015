@@ -1,0 +1,14 @@
+extends index
+block content
+    .container.md
+        each person in people
+            if person.firstname || person.lastname
+                .panel.panel-info
+                    .panel-heading
+                        h1 Hello
+                        p my name is
+                    .panel-body
+                        h1 #{person.firstname} #{person.lastname}
+                        if person.punchline
+                            p.small #{person.punchline}
+                    .panel-footer

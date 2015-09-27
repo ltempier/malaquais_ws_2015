@@ -1,0 +1,11 @@
+.idea
+malaquais_ws_2015.iml
+ex_map_velib/www/bower_components
+hello/node_modules
+hello/bower_components
+pj_instagram/node_modules
+pj_instagram/www/libraries
+pj_voie_rapide/www/libraries
+template_2D/.tmp
+template_2D/node_modules
+template_2D/bower_components

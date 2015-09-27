@@ -1,0 +1,24 @@
+{
+  "name": "malaquai2-d",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "tabletop": "~1.4.2",
+    "jquery": "~2.1.4",
+    "paper": "~0.9.23",
+    "underscore": "~1.8.3",
+    "async": "~1.4.2",
+    "whirl": "whirl.css#~1.0.0"
+  },
+  "appPath": "app",
+  "moduleName": "malaquai2DApp",
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "less/bootstrap.less",
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  }
+}

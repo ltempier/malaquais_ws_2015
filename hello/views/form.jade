@@ -1,0 +1,32 @@
+extends index
+
+block moreCss
+    link(rel="stylesheet", href="bower_components/parsleyjs/src/parsley.css")
+
+block moreJs
+    script(src="bower_components/parsleyjs/dist/parsley.min.js")
+    script(src="scripts/form.js")
+
+block content
+    .container.sm
+        .well
+            .text-center.logo
+                img(src="/images/hello-my-name-is.png", width="200px")
+
+            form.form-horizontal(data-parsley-validate)
+                fieldset
+                    .form-group
+                        label.control-label.col-lg-2 Nom
+                        .col-lg-10
+                            input.form-control(type="text", , name="lastname", required)
+                    .form-group
+                        label.control-label.col-lg-2 Prénom
+                        .col-lg-10
+                            input.form-control(type="text", name="firstname", required)
+                    .form-group
+                        label.control-label.col-lg-2 Punchline
+                        .col-lg-10
+                            input.form-control(type="text", name="punchline")
+                    .form-group
+                        .col-lg-12
+                            button.btn.btn-success.pull-right(type="submit") Valider

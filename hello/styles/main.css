@@ -1,0 +1,65 @@
+
+.logo {
+    margin-bottom: 30px;
+}
+
+.container.sm {
+    max-width: 550px;
+}
+
+.container.md {
+    max-width: 700px;
+}
+
+.control-label {
+    text-align: left !important;
+}
+
+.panel {
+    border-width: 1px;
+}
+
+.panel-heading * {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.panel-heading h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.panel-body {
+    min-height: 150px;
+    font-family: pacifico, sans-serif;
+    text-align: center;
+    font-size: 3vw;
+    line-height: 3vw;
+}
+
+.panel-body h1 {
+    font-size: 2em;
+}
+
+.panel-body p {
+    line-height: 2em;
+}
+
+.panel-heading {
+    background-color: #00ADEF !important;
+}
+
+.panel-footer {
+    background-color: #00ADEF !important;
+}
+
+#jsoneditor {
+    height: 80vh;
+}
+
+.modal-body {
+    padding: 3px;
+}

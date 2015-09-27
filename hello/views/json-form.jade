@@ -1,0 +1,18 @@
+extends index
+block moreCss
+    link(rel="stylesheet", href="bower_components/jsoneditor/dist/jsoneditor.min.css")
+
+block moreJs
+    script(src="bower_components/jsoneditor/dist/jsoneditor.min.js")
+    script(src="scripts/json-form.js")
+
+
+block content
+    .container
+        .row
+            .col-lg-12
+                #jsoneditor
+        br
+        .row
+            .col-lg-12.text-center
+                button.btn.btn-success#submit-json Enregistrer

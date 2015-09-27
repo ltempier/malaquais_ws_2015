@@ -1,0 +1,19 @@
+extends index
+
+block moreJs
+    script(src="bower_components/angular/angular.min.js")
+    script(src="scripts/app.js")
+
+block content
+    .container.md(ng-app="hello")
+        div(ng-controller="app-controller")
+
+            .panel.panel-info(ng-repeat="person in people")
+                .panel-heading
+                    h1 Hello
+                    p my name is
+                .panel-body
+                    h1 {{person.firstname}}  {{person.lastname}}
+                    p.small(ng-if(person.punchline)) {{person.punchline}}
+                .panel-footer
+

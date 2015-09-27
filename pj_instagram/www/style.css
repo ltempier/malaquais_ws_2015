@@ -1,0 +1,21 @@
+html, body {
+    height:100%;
+    width:100%;
+    padding:0px;
+    margin:0px;
+}
+
+#map {
+    height:100%;
+    width:100%;
+}
+
+#graph {
+    position: absolute;
+    height: 600px;
+    width: 600px;
+    z-index: 100;
+    right: 0;
+    top: 0;
+    margin-right: 10px;
+}

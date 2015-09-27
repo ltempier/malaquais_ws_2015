@@ -1,0 +1,11 @@
+{
+  "name": "malaquais-map",
+  "dependencies": {
+    "bower": "^1.5.2",
+    "express": "^4.13.3"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "bower install"
+  }
+}
